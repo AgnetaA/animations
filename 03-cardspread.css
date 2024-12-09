@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.card {
+    width: 150px;
+    height: 220px;
+    /* border: 2px solid black; */
+    top: 40vh;
+    left: 40vw;
+    position: fixed;
+    border-radius: 5px;
+}
+
+#pink {
+    background-color: #e8a7ca;
+    z-index: 9;
+}
+
+body:hover #pink {
+    transform: translate(-100px, 35px) rotate(-60deg); 
+    transition-duration: 1s;
+}
+
+#purple {
+    background-color: #7f168f;
+    z-index: 8;
+}
+
+body:hover #purple {
+    transform: translate(-75px, 20px) rotate(-45deg);
+    transition-duration: 1s;
+}
+
+#blue {
+    background-color: #4716b3;
+    z-index: 7;
+}
+
+body:hover #blue {
+    transform: translate(-50px, 10px) rotate(-30deg);
+    transition-duration: 1s;
+}
+
+#bluegreen {
+    background-color: #12809b;
+    z-index: 6;
+}
+
+body:hover #bluegreen {
+    transform: translate(-25px, 5px)rotate(-15deg);
+    transition-duration: 1s;
+}
+
+#green {
+    background-color: #129b30;
+    z-index: 5;
+}
+
+/* body:hover #green {
+    transform: rotate(0deg);
+    transition-duration: 1s;
+} */
+
+#lightgreen {
+    background-color: #99ff25;
+    z-index: 4;
+}
+
+body:hover #lightgreen {
+    transform: translate(25px, 5px) rotate(15deg);
+    transition-duration: 1s;
+}
+
+#yellow {
+    background-color: #ffff25;
+    z-index: 3;
+}
+
+body:hover #yellow {
+    transform: translate(50px, 10px) rotate(30deg);
+    transition-duration: 1s;
+}
+
+#orange {
+    background-color: #ff9c24;
+    z-index: 2;
+}
+
+body:hover #orange {
+    transform: translate(75px, 20px) rotate(45deg);
+    transition-duration: 1s;
+}
+
+#red {
+    background-color: #d41616;
+    z-index: 1;
+}
+
+body:hover #red {
+    transform: translate(100px, 35px) rotate(60deg);
+    transition-duration: 1s;
+}

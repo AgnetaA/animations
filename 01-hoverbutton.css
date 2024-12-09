@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    padding-top: 40vw;
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: rgb(40, 39, 39); 
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px #282828;
+    transition: all 1s ease;
+}
+
+a:hover {
+    background-color:#6e1a74;
+    padding: 20px;
+    box-shadow: -2px 2px 7px #282828;
+}
